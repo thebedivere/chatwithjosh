@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+=======
+## 0.4.6 (2016-1-22)
+
+Fixes
+
+* Display bugs in Chrome 48
+* NODE_PATH whitespace issue
+
+Enhancements
+
+* nl/es language adjustments
+
+## 0.4.5 (2015-12-22)
+
+Fixes
+
+* Issues with NODE_PATH
+* Fr language update
+
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
 ## 0.4.4 (2015-10-26)
 
 Enhancements

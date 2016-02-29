@@ -1,6 +1,10 @@
 {
   "name": "lets-chat",
+<<<<<<< HEAD
   "version": "0.4.4",
+=======
+  "version": "0.4.6",
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
   "description": "A chat app for small teams.",
   "license": "MIT",
   "main": "app.js",
@@ -62,7 +66,10 @@
   },
   "homepage": "https://github.com/sdelements/lets-chat",
   "dependencies": {
+<<<<<<< HEAD
     "md5": "^2.0.0",
+=======
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
     "async": "^1.4.2",
     "bcryptjs": "~2.2.2",
     "body-parser": "^1.14.0",
@@ -77,6 +84,10 @@
     "js-yaml": "^3.4.2",
     "less": "^2.5.1",
     "lodash": "^3.10.1",
+<<<<<<< HEAD
+=======
+    "md5": "^2.0.0",
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
     "migroose": "^0.5.0",
     "migroose-cli": "^0.1.0",
     "moment": "^2.10.6",
@@ -95,7 +106,11 @@
     "passport-local": "1.0.0",
     "passport.socketio": "3.5.1",
     "require-directory": "~2.1.1",
+<<<<<<< HEAD
     "require-tree": "^1.0.1"
+=======
+    "require-tree": "^1.1.1"
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
   },
   "devDependencies": {
     "grunt": "~0.4.5",

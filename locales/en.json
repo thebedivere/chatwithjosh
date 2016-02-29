@@ -79,5 +79,10 @@
 	"Home": "Home",
 	"Toggle Sidebar": "Toggle Sidebar",
 	"Close": "Close",
+<<<<<<< HEAD
 	"Transcript for": "Transcript for"
+=======
+	"Transcript for": "Transcript for",
+	"Find a room...": "Find a room..."
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
 }

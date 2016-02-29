@@ -9,6 +9,10 @@ process.title = 'letschat';
 require('colors');
 
 var _ = require('lodash'),
+<<<<<<< HEAD
+=======
+    path = require('path'),
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
     fs = require('fs'),
     express = require('express.oi'),
     i18n = require('i18n'),
@@ -30,9 +34,15 @@ var _ = require('lodash'),
 var MongoStore = connectMongo(express.session),
     httpEnabled = settings.http && settings.http.enable,
     httpsEnabled = settings.https && settings.https.enable,
+<<<<<<< HEAD
     models = all('./app/models'),
     middlewares = all('./app/middlewares'),
     controllers = all('./app/controllers'),
+=======
+    models = all(path.resolve('./app/models')),
+    middlewares = all(path.resolve('./app/middlewares')),
+    controllers = all(path.resolve('./app/controllers')),
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
     app;
 
 //
@@ -97,7 +107,11 @@ app.use(helmet.contentSecurityPolicy({
     fontSrc: ['\'self\'', 'fonts.gstatic.com'],
     mediaSrc: ['\'self\''],
     objectSrc: ['\'self\''],
+<<<<<<< HEAD
     imgSrc: ['*']
+=======
+    imgSrc: ['* data:']
+>>>>>>> 82517f0ff783a567c1fdcb6bf60ac86d34e44aaa
 }));
 
 var bundles = {};
